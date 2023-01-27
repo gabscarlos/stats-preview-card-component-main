@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);       
+}
+
+.container {
+    margin-top: 150px;
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px 0 0 5px;
+    width: 540px;
+    height: 450px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 50px 20px 20px;
+    margin: 50px 0px 0 50px;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.description {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 0px 0 50px;
+}
+
+.footer-container {
+    display: flex;
+    height: 100px;
+    width: 540px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-left {
+    color: hsl(0, 0%, 100%);
+    display: block;
+    padding: 20px 20px 20px 20px;
+    width: 150px;
+}
+
+.footer-center {
+    color: hsl(0, 0%, 100%);
+    display: block;
+    padding: 20px 20px 20px 20px;
+    width: 150px;
+}
+
+.footer-right {
+    color: hsl(0, 0%, 100%);
+    display: block;
+    padding: 20px 50px 20px 20px;
+    width: 150px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px; 
+}
+
+.footer-container p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.image {
+    border-radius: 0 5px 5px 0;
+    background-color: hsl(277, 64%, 61%);
+    width: 540px;
+    height: 450px;
+}
+
+img {
+    border-radius: 0 5px 5px 0;
+    opacity: 0.5;    
+    width: 540px;
+    height: 450px;
+}
+
+.attribution { 
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif; 
+    font-size: 11px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (max-width: 600px)
+{
+    .container {
+        flex-direction: column;        
+        text-align: center;
+    }
+
+    .card {
+        border-radius: 5px;
+        width: 300px;
+        height: 550px;
+        position: absolute;
+        top: 300px;        
+    } 
+
+    .title {
+        margin: 10px 0px 0 0px;
+        padding: 10px;
+    }
+
+    .description {
+        margin: 10px 0px 0 0px;
+        padding: 10px;
+    }
+
+    .image {
+        border-radius: 5px 5px 0 0;
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        top: 50px;
+    }
+
+    img {
+        border-radius: 5px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .footer-container {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        margin-top: 5px;
+    }
+
+    .footer-left {
+        width: 100px;
+    }
+
+    .footer-center {
+        width: 100px;
+    }
+
+    .footer-right {
+        width: 100px;
+    }
+
+    
+}
